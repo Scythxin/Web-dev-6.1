@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background-color: hsl(281, 49%, 47%);
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><big>Registration Form</big></h1>
+    <hr>
+    <form>
+        <table>
+            <tr>
+                <td><b>Student Name:</b></td>
+                <td><input type="text" placeholder="First Name" style="border: 0.5px; border-radius: 10px;" ></td>
+                <td><input type="text" placeholder="Last Name" style="border: 0.5px; border-radius: 10px;"></td>
+            </tr>
+            <tr>
+                <td><b>Date Of Birth:</b></td>
+                <td><input type="date" style="border: 0.5px; border-radius: 10px;"></td>
+            </tr>
+            <tr>
+                <td><b>Admission No.</b></td>
+                <td><input type="text" placeholder="1234" style="border: 0.5px; border-radius: 10px;" maxlength="4"></td>
+            </tr>
+            <tr>
+                <td><b>Guardian's Name:</b></td>
+                <td><input type="text" placeholder="First Name" style="border: 0.5px; border-radius: 10px;"></td>
+                <td><input type="text" placeholder="Last Name" style="border: 0.5px; border-radius: 10px;"></td>
+            </tr>
+            <tr>
+                <td><b>Phone No.:</b></td>
+                <td><input type="text" placeholder="Phone No." style="border: 0.5px; border-radius: 10px;" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><b>E-Mail</b></td>
+                <td><input type="email" placeholder="abcger@gmai.com" style="border: 0.5px; border-radius: 10px;"></td>
+            </tr>
+        
+
+
+        </table>
+        <b>Gender:</b>
+        <input type="radio" name="gen"><label><b>Male</b></label>
+        <input type="radio" name="gen"><label><b>Female</b></label>
+        <input type="radio" name="gen"><label><b>Others</b></label>
+        
+        <br>
+        
+        <b>Grade:</b>
+        <select style="border: 0.5px; border-radius: 10px;">
+            <option></option>
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+            <option>V</option>
+            <option>VI</option>
+            <option>VII</option>
+            <option>VIII</option>
+            <option>IX</option>
+            <option>X</option>
+            <option>XI</option>
+            <option>XII</option>
+        </select>
+        <select style="border: 0.5px; border-radius: 10px;">
+            <option></option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+
+        <br>
+
+        <b>Event:</b>
+        <input type="checkbox"><label><b>100m race</b></label>
+        <input type="checkbox"><label><b>200m race</b></label>
+        <input type="checkbox"><label><b>400m race</b></label>
+        <input type="checkbox"><label><b>Relay race</b></label>
+        <input type="checkbox"><label><b>Short Put</b></label>
+        <input type="checkbox"><label><b>High Jump</b></label>
+        <input type="checkbox"><label><b>Long Jump</b></label>
+        <input type="checkbox"><label><b>Javelin Throw</b></label>
+
+        <br>
+
+        <label><b>Image of Student:</b></label>
+        <input type="file" accept="image/png , image/jpeg"><br>
+
+        <table>
+            <tr>
+                <td><button type="submit" style="border: 0.5px; border-radius: 10px;"><b>Submit</b></button></td>
+                <td><button type="reset" style="border: 0.5px; border-radius: 10px;"><b>Reset</b></button></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

@@ -102,3 +102,6 @@ What is Git?
 - There are multiple of git tools we use but some famous tools are github, gitlab, etc.
 
 Repository:- Its a folder that we have created on github so that we can store our code. Simply we can say its a folder.
+
+Button
+- We can't hyperlink a button.
