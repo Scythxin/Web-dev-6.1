@@ -105,3 +105,6 @@ Repository:- Its a folder that we have created on github so that we can store ou
 
 Button
 - We can't hyperlink a button.
+
+Div
+Selector and types

@@ -6,54 +6,69 @@
     <title>Forms</title>
     <style>
         body{
-            background-color: hsl(281, 49%, 47%);
-            color: whitesmoke;
+            background-color: #7051e0;
+            color: #FFF3DA;
+            border: 2px solid white;
+            font-weight: bold;
+        }
+        .p1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+        }
+        #p2{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;"><big>Registration Form</big></h1>
+    <h1 style="text-align: center;"><big>Sports Day Registration Form</big></h1>
     <hr>
     <form>
+        <div align="center"  >
         <table>
             <tr>
-                <td><b>Student Name:</b></td>
+                <td> Student Name: </td>
                 <td><input type="text" placeholder="First Name" style="border: 0.5px; border-radius: 10px;" ></td>
                 <td><input type="text" placeholder="Last Name" style="border: 0.5px; border-radius: 10px;"></td>
             </tr>
             <tr>
-                <td><b>Date Of Birth:</b></td>
+                <td> Date Of Birth: </td>
                 <td><input type="date" style="border: 0.5px; border-radius: 10px;"></td>
             </tr>
             <tr>
-                <td><b>Admission No.</b></td>
-                <td><input type="text" placeholder="1234" style="border: 0.5px; border-radius: 10px;" maxlength="4"></td>
+                <td> Admission No. </td>
+                <td><input type="text" placeholder="12345678" style="border: 0.5px; border-radius: 10px;" maxlength="8"></td>
             </tr>
             <tr>
-                <td><b>Guardian's Name:</b></td>
+                <td> Guardian's Name: </td>
                 <td><input type="text" placeholder="First Name" style="border: 0.5px; border-radius: 10px;"></td>
                 <td><input type="text" placeholder="Last Name" style="border: 0.5px; border-radius: 10px;"></td>
             </tr>
             <tr>
-                <td><b>Phone No.:</b></td>
+                <td> Phone No.: </td>
                 <td><input type="text" placeholder="Phone No." style="border: 0.5px; border-radius: 10px;" minlength="10" maxlength="10"></td>
             </tr>
             <tr>
-                <td><b>E-Mail</b></td>
+                <td> Emergency Contact: </td>
+                <td><input type="text" placeholder="Phone No." style="border: 0.5px; border-radius: 10px;" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td> E-Mail </td>
                 <td><input type="email" placeholder="abcger@gmai.com" style="border: 0.5px; border-radius: 10px;"></td>
             </tr>
         
 
 
         </table>
-        <b>Gender:</b>
-        <input type="radio" name="gen"><label><b>Male</b></label>
-        <input type="radio" name="gen"><label><b>Female</b></label>
-        <input type="radio" name="gen"><label><b>Others</b></label>
-        
+        <label>Gender:</label>
+        <input type="radio" name="gen"><label> Male </label>
+        <input type="radio" name="gen"><label> Female </label>
+        <input type="radio" name="gen"><label> Others </label>
+
         <br>
         
-        <b>Grade:</b>
+         <label>Grade: </label>
         <select style="border: 0.5px; border-radius: 10px;">
             <option></option>
             <option>I</option>
@@ -78,27 +93,38 @@
 
         <br>
 
-        <b>Event:</b>
-        <input type="checkbox"><label><b>100m race</b></label>
-        <input type="checkbox"><label><b>200m race</b></label>
-        <input type="checkbox"><label><b>400m race</b></label>
-        <input type="checkbox"><label><b>Relay race</b></label>
-        <input type="checkbox"><label><b>Short Put</b></label>
-        <input type="checkbox"><label><b>High Jump</b></label>
-        <input type="checkbox"><label><b>Long Jump</b></label>
-        <input type="checkbox"><label><b>Javelin Throw</b></label>
+         <label>Event:</label> 
+        <input type="checkbox"><label> 100m race </label>
+        <input type="checkbox"><label> 200m race </label>
+        <input type="checkbox"><label> 400m race </label>
+        <input type="checkbox"><label> Relay race </label>
+        <input type="checkbox"><label> Short Put </label>
+        <input type="checkbox"><label> High Jump </label>
+        <input type="checkbox"><label> Long Jump </label>
+        <input type="checkbox"><label> Javelin Throw </label>
 
         <br>
 
-        <label><b>Image of Student:</b></label>
+        <label> Image of Student: </label>
         <input type="file" accept="image/png , image/jpeg"><br>
 
         <table>
             <tr>
-                <td><button type="submit" style="border: 0.5px; border-radius: 10px;"><b>Submit</b></button></td>
-                <td><button type="reset" style="border: 0.5px; border-radius: 10px;"><b>Reset</b></button></td>
+                <td><button type="submit" style="border: 0.5px; border-radius: 10px;"> Submit </button></td>
+                <td><button type="reset" style="border: 0.5px; border-radius: 10px;"> Reset </button></td>
             </tr>
         </table>
+
+        <br>
+
+        <label><u>Guidelines</u></label>
+
+        <p class="p1">1.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quas nostrum atque iure. Adipisci autem qui tempora nihil eos officia veritatis fugit, animi vero maxime? Nulla itaque unde possimus nobis?</p>
+        <p class="p1">2.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum facilis, nam corporis reprehenderit velit repellat veniam sed magni animi quos, numquam autem tenetur expedita ex ducimus dolore, natus consectetur!</p>
+        <p class="p1">3.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi tempore similique nemo necessitatibus inventore beatae, ratione cumque eos minima vero eaque eum molestias molestiae ea cupiditate tenetur deleniti earum alias.</p>
+        <p id="p2">4.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum amet, architecto magni ut explicabo quae rerum delectus accusantium maxime natus. Quo quod quisquam nulla beatae modi voluptate consequatur debitis rem.</p>
+        <p id="p2">5.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto maiores velit doloribus quis ipsa aperiam minus magnam, aliquam praesentium culpa molestiae? Necessitatibus ut repudiandae, voluptatem praesentium aliquam temporibus nesciunt.</p>
+        </div>
 
     </form>
 </body>
