@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styles</title>
     <style>
-        div{
+        .parent{
+            position: relative;
+        }
+        .child{
+            position: absolute;
             background-color: antiquewhite;
             height: 200px;
             width: 300px;
             text-align: center;
             border: 2px solid black;
             border-radius: 10%;
-            margin: 30px;
-            padding: 20px;
             box-shadow: 10px 10px 10px hsl(0, 2%, 18%);
         }
 
@@ -29,10 +31,12 @@
     </style>
 </head>
 <body>
-    <div>
-        <h1>This is my heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi ipsum perspiciatis obcaecati. Doloribus debitis voluptate sequi inventore? Nam quisquam cum quidem libero laboriosam a necessitatibus expedita tenetur aperiam iure!</p>
-    </div>
-    <button>Button</button>
+    <div class="parent">
+        <div class="child">
+            <h1>This is my heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi ipsum perspiciatis obcaecati. Doloribus debitis voluptate sequi inventore? Nam quisquam cum quidem libero laboriosam a necessitatibus expedita tenetur aperiam iure!</p>
+        </div>
+    </div>    
+        <button>Button</button>
 </body>
 </html>
