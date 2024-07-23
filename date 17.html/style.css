@@ -3,7 +3,7 @@
 
   #roboto-light {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
   }
   
@@ -71,6 +71,16 @@
     background-color: black;
 }
 
+.text1{
+    border-top: 3px solid black;
+    padding-top: 30px;
+    margin-top: 0px;
+}
 .text1:hover{
     text-decoration: underline 2px;
+}
+
+img{
+    margin: -8px;
+    padding: 0px;
 }
