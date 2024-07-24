@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <div id="screen">
+            <input type="text" id="result" maxlength="10">
+        </div>
+        <div id="table">
+            <table id="t1">
+                <tr>
+                    <td><button id="C"
+                        onclick="
+                            output= ''
+                            document.querySelector('#result').value= output"
+                            >C</button></td>
+                    <td><button id="eq"
+                        onclick="
+                            output = eval(output)
+                            document.querySelector('#result').value = output"
+                            >=</button></td>
+                </tr>
+            </table>
+            <table id="t2">
+                <tr>
+                    <td><button
+                        onclick="
+                            output = output + 7
+                            document.querySelector('#result').value = output"
+                            >7</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 8
+                            document.querySelector('#result').value = output"
+                            >8</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 9
+                            document.querySelector('#result').value = output"
+                            >9</button></td>
+                    <td><button
+                        onclick="
+                            output = output + '/'
+                            document.querySelector('#result').value = output"
+                            >/</button></td>
+                </tr>
+                <tr>
+                    <td><button
+                        onclick="
+                            output = output + 4
+                            document.querySelector('#result').value = output"
+                            >4</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 5
+                            document.querySelector('#result').value = output"
+                            >5</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 6
+                            document.querySelector('#result').value = output"
+                            >6</button></td>
+                    <td><button
+                        onclick="
+                            output = output + '*'
+                            document.querySelector('#result').value = output"
+                            >x</button></td>
+                </tr>
+                <tr>
+                    <td><button
+                        onclick="
+                            output = output + 1
+                            document.querySelector('#result').value = output"
+                            >1</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 2
+                            document.querySelector('#result').value = output"
+                            >2</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 3
+                            document.querySelector('#result').value = output"
+                            >3</button></td>
+                    <td><button
+                        onclick="
+                            output = output + '-'
+                            document.querySelector('#result').value = output"
+                            >-</button></td>
+                </tr>
+                <tr>
+                    <td><button
+                        onclick="
+                            output = output % 10
+                            document.querySelector('#result').value = output"
+                            >⇦</button></td>
+                    <td><button
+                        onclick="
+                            output = output + 0
+                            document.querySelector('#result').value = output"
+                            >0</button></td>
+                    <td><button
+                        onclick="
+                            output = output + '.'
+                            document.querySelector('#result').value = output"
+                            >.</button></td>
+                    <td><button
+                        onclick="
+                            output = output + '+'
+                            document.querySelector('#result').value = output"
+                            >+</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let output = ''
+        document.querySelector("#result").value = output;
+    </script>
+</body>
+</html>

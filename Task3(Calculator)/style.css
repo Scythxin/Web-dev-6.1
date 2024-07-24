@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc{
+    border: 2px solid black;
+    width: fit-content;
+    background-color: rgb(66, 72, 82);
+    border-radius: 10px;
+}
+
+#table{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4px;
+}
+
+#result{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    height: 2.4em;
+    width: 200px;
+    padding: 9px;
+    margin: 4px;
+}
+
+#t1{
+    width: 121px;
+}
+
+button{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #313537;
+    color: white;
+    font-size: 1.2em;
+}
+
+#C{
+    width: 104px;
+}
+
+#eq{
+    width: 104px;
+}
