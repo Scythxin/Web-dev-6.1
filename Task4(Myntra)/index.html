@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/Task4(Myntra)/images/download.png" >
+    <link rel="icon" href="images/download.png" >
     <script src="https://kit.fontawesome.com/9ca49f1af0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="left">
-            <div class="logo"><a href="https://www.myntra.com/"><img src="/Task4(Myntra)/images/download.png" alt="Logo" height="80rem"></a></div>
+            <div class="logo"><a href="https://www.myntra.com/"><img src="/images/download.png" alt="Logo" height="80rem"></a></div>
             <ul>
                 <li><a href="" class="men assistant-medium">MEN</a></li>
                 <li><a href="" class="wom assistant-medium">WOMEN</a></li>
@@ -39,128 +39,278 @@
     </nav>
 
     <main>
-        <div class="gallery">
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+        <div class="content-area">
+            <div class="filters">
+                <div class="brand-box">
+                    <div><label class="assistant-medium filter-head">BRAND</label></div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="HIGHLANDER" class="checkbox-size">
+                        <label for="HIGHLANDER" class="assistant-thin">HIGHLANDER</label><label for="HIGHLANDER" class="oprice assistant-medium"><small>(3472)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Roadster" class="checkbox-size">
+                        <label for="Roadster" class="assistant-thin">Roadster</label><label for="Roadster" class="oprice assistant-medium"><small>(2792)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Louis" class="checkbox-size">
+                        <label for="Louis" class="assistant-thin">Louis Philippe Sport</label><label for="Louis" class="oprice assistant-medium"><small>(2746)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Terrain" class="checkbox-size">
+                        <label for="Terrain" class="assistant-thin">Indian Terrain</label><label for="Terrain" class="oprice assistant-medium"><small>(2575)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Snitch" class="checkbox-size">
+                        <label for="Snitch" class="assistant-thin">Snitch</label><label for="Snitch" class="oprice assistant-medium"><small>(2542)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="SHOWOFF" class="checkbox-size">
+                        <label for="SHOWOFF" class="assistant-thin">SHOWOFF</label><label for="SHOWOFF" class="oprice assistant-medium"><small>(2246)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Mast" class="checkbox-size">
+                        <label for="Mast" class="assistant-thin">Mast & Harbour</label><label for="Mast" class="oprice assistant-medium"><small>(2173)</small></label>
+                    </div>
+                    <div class="brand-name">
+                        <input type="checkbox" id="Allen" class="checkbox-size">
+                        <label for="Allen" class="assistant-thin">Allen Solly</label><label for="Allen" class="oprice assistant-medium"><small>(1981)</small></label>
+                    </div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="color-box">
+                    <div><label class="assistant-medium filter-head">COLOR</label></div>
+                    <div class="color-name">
+                        <input type="checkbox" id="blue" class="checkbox-size">
+                        <div class="color-circle" style="background-color: blue;"></div>
+                        <label for="blue" class="assistant-thin">Blue</label><label for="blue" class="oprice assistant-medium"><small>(20617)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="white" class="checkbox-size">
+                        <div class="color-circle" style="background-color: white;"></div>
+                        <label for="white" class="assistant-thin">White</label><label for="white" class="oprice assistant-medium"><small>(14687)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="green" class="checkbox-size">
+                        <div class="color-circle" style="background-color: green;"></div>
+                        <label for="green" class="assistant-thin">Green</label><label for="green" class="oprice assistant-medium"><small>(10205)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="navy" class="checkbox-size">
+                        <div class="color-circle" style="background-color: navy;"></div>
+                        <label for="navy" class="assistant-thin">Navy Blue</label><label for="navy" class="oprice assistant-medium"><small>(10109)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="black" class="checkbox-size">
+                        <div class="color-circle" style="background-color: black;"></div>
+                        <label for="black" class="assistant-thin">Black</label><label for="black" class="oprice assistant-medium"><small>(10097)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="grey" class="checkbox-size">
+                        <div class="color-circle" style="background-color: grey;"></div>
+                        <label for="grey" class="assistant-thin">Grey</label><label for="grey" class="oprice assistant-medium"><small>(6439)</small></label>
+                    </div>
+                    <div class="color-name">
+                        <input type="checkbox" id="pink" class="checkbox-size">
+                        <div class="color-circle" style="background-color: pink;"></div>
+                        <label for="pink" class="assistant-thin">Pink</label><label for="pink" class="oprice assistant-medium"><small>(4503)</small></label>
+                    </div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="discount-box">
+                    <div><label class="assistant-medium filter-head">DISCOUNT RANGE</label></div>
+                    <div class="discount-name">
+                        <input type="radio" id="10" class="radio-size" name="discount">
+                        <label for="10" class="assistant-thin">10% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="20" class="radio-size" name="discount">
+                        <label for="20" class="assistant-thin">20% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="30" class="radio-size" name="discount">
+                        <label for="30" class="assistant-thin">30% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="40" class="radio-size" name="discount">
+                        <label for="40" class="assistant-thin">40% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="50" class="radio-size" name="discount">
+                        <label for="50" class="assistant-thin">50% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="60" class="radio-size" name="discount">
+                        <label for="60" class="assistant-thin">60% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="70" class="radio-size" name="discount">
+                        <label for="70" class="assistant-thin">70% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="80" class="radio-size" name="discount">
+                        <label for="80" class="assistant-thin">80% and above</label>
+                    </div>
+                    <div class="discount-name">
+                        <input type="radio" id="90" class="radio-size" name="discount">
+                        <label for="90" class="assistant-thin">90% and above</label>
+                    </div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
             </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+            <div class="gallery">
+                <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11903996/2020/7/10/aa6cf495-53f3-43f4-a67f-29e2a3adf8d21594377549125-Roadster-Men-Shirts-6671594377547426-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 38</label></div>
+                    <div><label class="name assistant-medium">Cotton Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 549 </label><label class="oprice assistant-medium"><small><strike>Rs. 1099</strike></small></label><label class="off assistant-medium"><small> (Rs. 550 OFF)</small></label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12442722/2020/11/7/30f32549-8595-42ba-8063-54c9e558a8701604743477082-Roadster-Men-Shirts-491604743475041-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Regular Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 647 </label><label class="oprice assistant-medium"><small><strike>Rs. 1499</strike></small></label><label class="off assistant-medium"><small> (55% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/1/d5be661d-0933-43ec-ac03-87782764827e1617260002204-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">HIGHLANDER</label></div>
+                    <div><label class="size assistant-medium">Sizes: 44</label></div>
+                    <div><label class="name assistant-medium">Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 424 </label><label class="oprice assistant-medium"><small><strike>Rs. 1249</strike></small></label><label class="off assistant-medium"><small> (66% OFF)</small></label></div>
+
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10673592/2019/9/24/33a0de4a-fc8d-4982-83b1-e29fcfb7fed11569310400581-The-Indian-Garage-Co-Men-Shirts-1041569310397903-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">The Indian Garage Co</label></div>
+                    <div><label class="size assistant-medium">Sizes: 39</label></div>
+                    <div><label class="name assistant-medium">Men Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 593 </label><label class="oprice assistant-medium"><small><strike>Rs. 1649</strike></small></label><label class="off assistant-medium"><small> (64% OFF)</small></label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11903996/2020/7/10/aa6cf495-53f3-43f4-a67f-29e2a3adf8d21594377549125-Roadster-Men-Shirts-6671594377547426-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 38</label></div>
+                    <div><label class="name assistant-medium">Cotton Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 549 </label><label class="oprice assistant-medium"><small><strike>Rs. 1099</strike></small></label><label class="off assistant-medium"><small> (Rs. 550 OFF)</small></label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12442722/2020/11/7/30f32549-8595-42ba-8063-54c9e558a8701604743477082-Roadster-Men-Shirts-491604743475041-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Regular Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 647 </label><label class="oprice assistant-medium"><small><strike>Rs. 1499</strike></small></label><label class="off assistant-medium"><small> (55% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
-            </div>
-            <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="490px" width="370px">
-                <div class="back">
-                    <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/1/d5be661d-0933-43ec-ac03-87782764827e1617260002204-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">HIGHLANDER</label></div>
+                    <div><label class="size assistant-medium">Sizes: 44</label></div>
+                    <div><label class="name assistant-medium">Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 424 </label><label class="oprice assistant-medium"><small><strike>Rs. 1249</strike></small></label><label class="off assistant-medium"><small> (66% OFF)</small></label></div>
+
                 </div>
-                <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
-                <div><label class="size assistant-medium">Sizes: 40</label></div>
-                <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
-                <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
-                <div><label class="left-amount assistant-medium">Only few left!</label></div>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10673592/2019/9/24/33a0de4a-fc8d-4982-83b1-e29fcfb7fed11569310400581-The-Indian-Garage-Co-Men-Shirts-1041569310397903-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">The Indian Garage Co</label></div>
+                    <div><label class="size assistant-medium">Sizes: 39</label></div>
+                    <div><label class="name assistant-medium">Men Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 593 </label><label class="oprice assistant-medium"><small><strike>Rs. 1649</strike></small></label><label class="off assistant-medium"><small> (64% OFF)</small></label></div>
+                </div>
+                <div class="image"><img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29496384/2024/5/11/c394700f-724d-45d4-b296-e3e5cdbd816e1715436978162THEBEARHOUSEMenOpaqueCasualShirt1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">THE BEAR HOUSE</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Relaxed Fit Cotton Shacket</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 2390 </label><label class="oprice assistant-medium"><small><strike>Rs. 3299</strike></small></label><label class="off assistant-medium"><small> (30% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
+                </div>
+                <div class="image"><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11903996/2020/7/10/aa6cf495-53f3-43f4-a67f-29e2a3adf8d21594377549125-Roadster-Men-Shirts-6671594377547426-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 38</label></div>
+                    <div><label class="name assistant-medium">Cotton Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 549 </label><label class="oprice assistant-medium"><small><strike>Rs. 1099</strike></small></label><label class="off assistant-medium"><small> (Rs. 550 OFF)</small></label></div>
+                </div>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12442722/2020/11/7/30f32549-8595-42ba-8063-54c9e558a8701604743477082-Roadster-Men-Shirts-491604743475041-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">Roadster</label></div>
+                    <div><label class="size assistant-medium">Sizes: 40</label></div>
+                    <div><label class="name assistant-medium">Regular Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 647 </label><label class="oprice assistant-medium"><small><strike>Rs. 1499</strike></small></label><label class="off assistant-medium"><small> (55% OFF)</small></label></div>
+                    <div><label class="left-amount assistant-medium">Only few left!</label></div>
+                </div>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/1/d5be661d-0933-43ec-ac03-87782764827e1617260002204-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">HIGHLANDER</label></div>
+                    <div><label class="size assistant-medium">Sizes: 44</label></div>
+                    <div><label class="name assistant-medium">Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 424 </label><label class="oprice assistant-medium"><small><strike>Rs. 1249</strike></small></label><label class="off assistant-medium"><small> (66% OFF)</small></label></div>
+
+                </div>
+                <div class="image"><img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10673592/2019/9/24/33a0de4a-fc8d-4982-83b1-e29fcfb7fed11569310400581-The-Indian-Garage-Co-Men-Shirts-1041569310397903-1.jpg" height="380px" width="290px">
+                    <div class="back">
+                        <button class="wishlist"><label class="assistant-medium"><i class="fa-regular fa-heart fa-lg" style="color: hsl(0, 1%, 45%);"></i> WISHLIST</label></button>
+                    </div>
+                    <div><label class="brand assistant-medium">The Indian Garage Co</label></div>
+                    <div><label class="size assistant-medium">Sizes: 39</label></div>
+                    <div><label class="name assistant-medium">Men Slim Fit Casual Shirt</label></div>
+                    <div><label class="nprice assistant-medium">Rs. 593 </label><label class="oprice assistant-medium"><small><strike>Rs. 1649</strike></small></label><label class="off assistant-medium"><small> (64% OFF)</small></label></div>
+                </div>
+                
+
+                <br>
+                <div class="page-change">
+                    <div class="page-1 assistant-medium"><< Page 1</div>
+                    <button class="change-button assistant-medium">< Previous</button>
+                    <div class="assistant-thin page-no"> Page 1 of 1940</div>
+                    <button class="change-button assistant-medium">Next ></button>
+                </div>
+                
+                
             </div>
-            
         </div>
     </main>
 </body>
